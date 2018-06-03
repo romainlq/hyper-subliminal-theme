@@ -1,12 +1,13 @@
 {
   "name": "hyper-subliminal-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Subliminal inspired theme for Hyper",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "yarn run lint",
-    "precommit": "yarn run test"
+    "precommit": "yarn run test",
+    "release": "yarn run test && standard-version"
   },
   "repository": {
     "type": "git",
