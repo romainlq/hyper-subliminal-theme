@@ -1,5 +1,5 @@
 {
-  "name": "hyper-nice-theme",
+  "name": "hyper-subliminal-theme",
   "version": "1.0.0",
   "description": "Subliminal inspired theme for Hyper",
   "main": "index.js",
@@ -8,10 +8,21 @@
     "test": "yarn run lint",
     "precommit": "yarn run test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainwn/hyper-subliminal-theme"
+  },
   "author": "Romain Le Quellec",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romainwn/hyper-subliminal-theme/issues"
+  },
   "keywords": [
-    "hyper"
+    "hyper",
+    "hyper-theme",
+    "theme",
+    "ui",
+    "subliminal"
   ],
   "eslintConfig": {
     "plugins": [
